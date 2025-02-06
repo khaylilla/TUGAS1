@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Pengguna</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #d2b48c;
+            text-align: center;
+            color: rgb(143, 134, 134);
+        }
+        .container {
+            background-color: #5a3e2b;
+            width: 60%;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile-img {
+            width: 150px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        table {
+            margin: 0 auto;
+            text-align: left;
+        }
+        td {
+            padding: 10px;
+        }
+        .login, .register {
+            margin: 20px auto;
+            width: 300px;
+            background: rgb(237, 225, 209);
+            padding: 30px;
+            border-radius: 10px;
+        }
+        input, button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <h2>Halaman Login</h2>
+        <form>
+            <input type="text" placeholder="Username"><br>
+            <input type="password" placeholder="Password"><br>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <div class="register">
+        <h2>Halaman Registrasi</h2>
+        <form>
+            <input type="text" placeholder="Nama"><br>
+            <input type="text" placeholder="Alamat"><br>
+            <input type="text" placeholder="Asal Sekolah"><br>
+            <input type="text" placeholder="Cita-cita"><br>
+            <input type="text" placeholder="Hobi"><br>
+            <input type="file"><br>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <div class="container">
+        <h2>BIODATA DIRI</h2>
+        <img src="khay.jpg" alt="Foto Profil" class="profile-img">
+        <table>
+            <tr><td><b>Nama</b></td><td>: Khaylilla Shafaraly Irnanda</td></tr>
+            <tr><td><b>Alamat</b></td><td>: Kota Bengkulu</td></tr>
+            <tr><td><b>Asal Sekolah</b></td><td>: SMAN 06 Kota Bengkulu</td></tr>
+            <tr><td><b>Hobi</b></td><td>: Menggambar, Membaca, Nonton Anime</td></tr>
+            <tr><td><b>Cita-cita</b></td><td>: Pemilik Art Galery</td></tr>
+        </table>
+    </div>
+</body>
+</html>
